@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.headline-container {
+  background-color: #3788EC;
+  width: 60%;
+}
+
+.headline-container h1 {
+  font-family: 'Inter', 'Inter Placeholder', sans-serif;
+  font-size: 40px;
+  color: #042352;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.headline-container h2 {
+  font-size: 22px;
+  color: #DCE3F2;
+}
+
+.below-the-fold h1 {
+  color: #DCE3F2;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.below-the-fold .services {
+  padding: 30px;
+}
+
+.below-the-fold .services .card {
+  background-color: #6D99E1;
+}
+
+.below-the-fold .services .card .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20;
+  justify-content: center;
+}
+
+.below-the-fold .services h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #042352;
+}
+
+.below-the-fold .services p {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.below-the-fold .contact {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.projects > div {
+  margin: 0 50px;
+  border-left: solid #042352 1px;
+  border-right: solid #042352 1px;
+  z-index: 3;
+  position: relative;
+}
+
+.projects h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(4, 35, 82);
+}
+
+.projects .projects-title {
+  z-index: 0;
+  margin-bottom: -100px;
+  margin-top: 30px;
+}
+
+.projects .project-card {
+  margin: 220px 0;
+  width: 100%;
+}
+
+.projects .project-card .media {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects .project-card .media video {
+  width: 35%;
+  scale: 110%;
+}
+
+.projects .project-card .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+  width: 50%;
+}
+
+.content > div {
+  align-items: start;
+  padding-right: 130px;
+}
+
+.projects .project-card h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(4, 35, 82);
+  margin-bottom: 20px;
+}
+
+.projects .project-card p {
+   font-size: 24px;
+   font-weight: 500;
+   color: #636569;
+}
+
+.about-me {
+  border-top: #042352 1px solid;
+}
+
+.about-me > div {
+  padding-top: 50px;
+  margin: 0px 50px;
+  border-right: #042352 1px solid;
+  border-left: #042352 1px solid;
+  padding: 0 50px;
+  padding-bottom: 80px;
+}
+
+.about-me h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(4, 35, 82);
+}
+
+.about-me h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(4, 35, 82);
+}
+
+.about-me p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(99, 101, 105);
+}
+
+.about-me .content {
+  text-align: center;
+
+}

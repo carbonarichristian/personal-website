@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Navbar = () => {
 
   return (
-    <nav className="flex items-center justify-between p-4 shadow-md bg-white h-fit">
+    <nav className="flex items-center justify-between py-2 px-3 shadow-md bg-white h-fit">
       <Image
         src="/logo.png"
         alt="personal logo"
